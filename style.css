@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    text-align: right;
+    padding-right: 100px;
+    /* align-items: righ; */
+}
+
+.header {
+    height: 100vh;
+    background-image: url(/images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: none;
+    padding-bottom: 150px;
+}
+
+.header-heading {
+    color: black;
+    font-size: 65px;
+    font-family: Work Sans;
+    font-weight: 700;
+    padding-top: 100px;
+
+}
+
+.header-content {
+    color: black;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+.btn-primary{
+    color: black;
+    background: white;
+    border-radius: 2px;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* main section :start */
+.main-failure{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 200px;
+    gap: 80px;
+
+}
+.main-image{
+    width: 350px;
+}
+.main-title{
+    color: #151414;
+font-size: 40px;
+}
+.main-text{
+    color: #444343;
+font-size: 16px;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+.list-item{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.list-icon{
+    width: 16px;
+    height: 11px;
+}
+.main-plan{
+    margin: 20px 150px;
+}
+.main-plan-title{
+    color: #151414;
+font-size: 40px;
+text-align: center;
+margin-bottom:50px;
+}
+.main-plan-skills{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-skill-title{
+    color: #151414;
+font-size: 20px;
+text-align: center;
+}
+.plan-skill-description{
+    text-align: center;
+}
+.plan-image{
+    width: 80px;
+    padding-left: 40px;
+}
